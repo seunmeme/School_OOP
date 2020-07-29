@@ -14,6 +14,6 @@ public class Teacher extends Staff implements TakeCourse{
 
     @Override
     public String attendClass(Course course) {
-        return "Tutor" + this.getName() + " is attending class to teach " + course.getName();
+        return "Tutor " + this.getName() + " is attending class to teach " + course.getName();
     }
 }

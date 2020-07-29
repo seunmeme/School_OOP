@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Student extends Person implements TakeCourse{
@@ -32,6 +34,7 @@ public class Student extends Person implements TakeCourse{
         }
 
     }
+
 
     @Override
     public String attendClass(Course course) {

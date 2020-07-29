@@ -47,4 +47,8 @@ public class School {
         this.staffList.add(staff);
     }
 
+    public void acceptApplicant(Applicant applicant) {
+        this.applicants.add(applicant);
+    }
+
 }

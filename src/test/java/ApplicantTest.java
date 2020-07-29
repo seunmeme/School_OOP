@@ -21,7 +21,7 @@ class ApplicantTest {
     void getName() {
         String expected = "Sol";
         String actual = applicant.getName();
-        assertEquals(expected, actual, "it should return "+expected);
+        assertEquals(expected, actual, "it should return " + expected);
     }
 
     @Test
@@ -29,7 +29,7 @@ class ApplicantTest {
     void getGender() {
         String expected = "Male";
         String actual = applicant.getGender();
-        assertEquals(expected, actual, "it should return "+expected);
+        assertEquals(expected, actual, "it should return " + expected);
     }
 
     @Test

@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Grade {
+
     private String name;
     private List<Person> students = new ArrayList<Person>();
 
