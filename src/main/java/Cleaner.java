@@ -3,7 +3,7 @@ public class Cleaner extends NonAcademicStaff {
         super(name, gender, age,"cleaner", "ancillary");
     }
 
-//    Service provided
+//    Service provided by cleaner
     @Override
     public String service() {
         return this.getName() + " is a " + this.getRole() +" and provides " + this.duty + " support.";

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//Grade class represents Class since class is a keyword.
 public class Grade {
 
     private String name;

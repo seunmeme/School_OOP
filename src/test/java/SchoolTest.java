@@ -65,7 +65,7 @@ class SchoolTest {
         school.employStaff(staff);
         String actual = school.getStaffList().get(0).getName();
 
-        assertEquals("Shola", actual, "staffList should have one staff.");
+        assertEquals("Shola", actual, "staffList should contain "+staff.getName());
 
     }
 
@@ -76,7 +76,7 @@ class SchoolTest {
         school.acceptApplicant(applicant);
         String actual = school.getApplicants().get(0).getName();
 
-        assertEquals("Tayo", actual, "applicants should have one applicant.");
+        assertEquals("Tayo", actual, "applicants should contain "+applicant.getName());
 
     }
 }

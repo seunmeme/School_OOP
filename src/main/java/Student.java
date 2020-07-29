@@ -26,6 +26,9 @@ public class Student extends Person implements TakeCourse{
     }
 
     public void addCourse(Course course){
+
+//        increment numberOfCourses as course is being added
+//        and ensure courses added does not exceed maximum number of courses.
         if(numberOfCourses < courses.length){
             courses[numberOfCourses] = course;
             numberOfCourses++;

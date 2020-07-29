@@ -35,6 +35,7 @@ public class Principal extends Staff{
 
     public void expelStudent(Person student, Grade grade, School school){
 
+//        removes student from student list based on the grade.
         switch (grade.getName()) {
             case "One":
                 school.getGrades().get(0).getStudents().remove(student);

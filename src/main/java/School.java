@@ -15,6 +15,8 @@ public class School {
         this.name = name;
         this.location = location;
         this.yearEstablished = yearEstablished;
+
+//        Initialize all grades as school is being created.
         grades.add(new Grade("One"));
         grades.add(new Grade("Two"));
         grades.add(new Grade("Three"));

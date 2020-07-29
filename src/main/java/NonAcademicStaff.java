@@ -9,5 +9,6 @@ public abstract class NonAcademicStaff extends Staff {
         return duty;
     }
 
+//    method to be implemented by children classes.
     abstract String service();
 }
