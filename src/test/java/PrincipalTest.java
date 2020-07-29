@@ -80,9 +80,7 @@ class PrincipalTest {
                 () -> assertTrue(school.getGrades().get(3).getStudents().contains(applicant4)),
                 () -> assertTrue(school.getGrades().get(4).getStudents().contains(applicant5)),
                 () -> assertTrue(school.getGrades().get(5).getStudents().contains(applicant6))
-
-        );
-//        assertTrue(school.getGrades().get(3).getStudents().contains(applicant1), "Grade Four students should contain applicant");
+            );
 
     }
 
